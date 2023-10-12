@@ -13,12 +13,14 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="ListBox Demo.vi" Type="VI" URL="../Examples/ListBox Demo.vi"/>
+			<Item Name="Popup List Demo (Class).vi" Type="VI" URL="../Examples/Popup List Demo (Class).vi"/>
 			<Item Name="Popup List Demo.vi" Type="VI" URL="../Examples/Popup List Demo.vi"/>
 			<Item Name="Selected List Demo.vi" Type="VI" URL="../Examples/Selected List Demo.vi"/>
 		</Item>
 		<Item Name="AutoComplete.lvlib" Type="Library" URL="../AutoComplete/AutoComplete.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
