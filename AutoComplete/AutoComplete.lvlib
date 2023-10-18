@@ -10,12 +10,15 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Autocomplete UI.vi" Type="VI" URL="../Autocomplete UI.vi"/>
+		<Item Name="Choose Options.vi" Type="VI" URL="../Choose Options.vi"/>
 		<Item Name="Filter Options.vi" Type="VI" URL="../Filter Options.vi"/>
 		<Item Name="Layout Popup.vi" Type="VI" URL="../Layout Popup.vi"/>
+		<Item Name="Options.ctl" Type="VI" URL="../Options.ctl"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Launch Autocomplete Handler.vi" Type="VI" URL="../Launch Autocomplete Handler.vi"/>
 	</Item>
 	<Item Name="AutoComplete.lvclass" Type="LVClass" URL="../AutoComplete/AutoComplete.lvclass"/>
+	<Item Name="Shared Options.lvclass" Type="LVClass" URL="../Shared Options/Shared Options.lvclass"/>
 </Library>
